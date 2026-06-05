@@ -1,0 +1,118 @@
+{
+  "greenhouses": [
+    {"id": "GH001", "name": "番茄大棚1号", "x": 50, "y": 50, "width": 80, "height": 50, "crop": "番茄", "growthStage": "flowering"},
+    {"id": "GH002", "name": "番茄大棚2号", "x": 150, "y": 50, "width": 80, "height": 50, "crop": "番茄", "growthStage": "fruiting"},
+    {"id": "GH003", "name": "番茄大棚3号", "x": 250, "y": 50, "width": 80, "height": 50, "crop": "番茄", "growthStage": "maturity"},
+    {"id": "GH004", "name": "番茄大棚4号", "x": 350, "y": 50, "width": 80, "height": 50, "crop": "番茄", "growthStage": "seedling"},
+    {"id": "GH005", "name": "番茄大棚5号", "x": 450, "y": 50, "width": 80, "height": 50, "crop": "番茄", "growthStage": "vegetative"},
+    {"id": "GH006", "name": "黄瓜大棚1号", "x": 550, "y": 50, "width": 80, "height": 50, "crop": "黄瓜", "growthStage": "vegetative"},
+    {"id": "GH007", "name": "黄瓜大棚2号", "x": 650, "y": 50, "width": 80, "height": 50, "crop": "黄瓜", "growthStage": "flowering"},
+    {"id": "GH008", "name": "黄瓜大棚3号", "x": 750, "y": 50, "width": 80, "height": 50, "crop": "黄瓜", "growthStage": "fruiting"},
+    {"id": "GH009", "name": "黄瓜大棚4号", "x": 850, "y": 50, "width": 80, "height": 50, "crop": "黄瓜", "growthStage": "maturity"},
+    {"id": "GH010", "name": "黄瓜大棚5号", "x": 950, "y": 50, "width": 80, "height": 50, "crop": "黄瓜", "growthStage": "seedling"},
+    {"id": "GH011", "name": "草莓大棚1号", "x": 50, "y": 120, "width": 80, "height": 50, "crop": "草莓", "growthStage": "flowering"},
+    {"id": "GH012", "name": "草莓大棚2号", "x": 150, "y": 120, "width": 80, "height": 50, "crop": "草莓", "growthStage": "fruiting"},
+    {"id": "GH013", "name": "草莓大棚3号", "x": 250, "y": 120, "width": 80, "height": 50, "crop": "草莓", "growthStage": "maturity"},
+    {"id": "GH014", "name": "草莓大棚4号", "x": 350, "y": 120, "width": 80, "height": 50, "crop": "草莓", "growthStage": "seedling"},
+    {"id": "GH015", "name": "草莓大棚5号", "x": 450, "y": 120, "width": 80, "height": 50, "crop": "草莓", "growthStage": "vegetative"},
+    {"id": "GH016", "name": "生菜大棚1号", "x": 550, "y": 120, "width": 80, "height": 50, "crop": "生菜", "growthStage": "seedling"},
+    {"id": "GH017", "name": "生菜大棚2号", "x": 650, "y": 120, "width": 80, "height": 50, "crop": "生菜", "growthStage": "vegetative"},
+    {"id": "GH018", "name": "生菜大棚3号", "x": 750, "y": 120, "width": 80, "height": 50, "crop": "生菜", "growthStage": "maturity"},
+    {"id": "GH019", "name": "生菜大棚4号", "x": 850, "y": 120, "width": 80, "height": 50, "crop": "生菜", "growthStage": "vegetative"},
+    {"id": "GH020", "name": "生菜大棚5号", "x": 950, "y": 120, "width": 80, "height": 50, "crop": "生菜", "growthStage": "maturity"},
+    {"id": "GH021", "name": "辣椒大棚1号", "x": 50, "y": 190, "width": 80, "height": 50, "crop": "辣椒", "growthStage": "seedling"},
+    {"id": "GH022", "name": "辣椒大棚2号", "x": 150, "y": 190, "width": 80, "height": 50, "crop": "辣椒", "growthStage": "vegetative"},
+    {"id": "GH023", "name": "辣椒大棚3号", "x": 250, "y": 190, "width": 80, "height": 50, "crop": "辣椒", "growthStage": "flowering"},
+    {"id": "GH024", "name": "辣椒大棚4号", "x": 350, "y": 190, "width": 80, "height": 50, "crop": "辣椒", "growthStage": "fruiting"},
+    {"id": "GH025", "name": "辣椒大棚5号", "x": 450, "y": 190, "width": 80, "height": 50, "crop": "辣椒", "growthStage": "maturity"},
+    {"id": "GH026", "name": "茄子大棚1号", "x": 550, "y": 190, "width": 80, "height": 50, "crop": "茄子", "growthStage": "seedling"},
+    {"id": "GH027", "name": "茄子大棚2号", "x": 650, "y": 190, "width": 80, "height": 50, "crop": "茄子", "growthStage": "vegetative"},
+    {"id": "GH028", "name": "茄子大棚3号", "x": 750, "y": 190, "width": 80, "height": 50, "crop": "茄子", "growthStage": "flowering"},
+    {"id": "GH029", "name": "茄子大棚4号", "x": 850, "y": 190, "width": 80, "height": 50, "crop": "茄子", "growthStage": "fruiting"},
+    {"id": "GH030", "name": "茄子大棚5号", "x": 950, "y": 190, "width": 80, "height": 50, "crop": "茄子", "growthStage": "maturity"},
+    {"id": "GH031", "name": "西瓜大棚1号", "x": 50, "y": 260, "width": 80, "height": 50, "crop": "西瓜", "growthStage": "seedling"},
+    {"id": "GH032", "name": "西瓜大棚2号", "x": 150, "y": 260, "width": 80, "height": 50, "crop": "西瓜", "growthStage": "vegetative"},
+    {"id": "GH033", "name": "西瓜大棚3号", "x": 250, "y": 260, "width": 80, "height": 50, "crop": "西瓜", "growthStage": "flowering"},
+    {"id": "GH034", "name": "西瓜大棚4号", "x": 350, "y": 260, "width": 80, "height": 50, "crop": "西瓜", "growthStage": "fruiting"},
+    {"id": "GH035", "name": "西瓜大棚5号", "x": 450, "y": 260, "width": 80, "height": 50, "crop": "西瓜", "growthStage": "maturity"},
+    {"id": "GH036", "name": "甜瓜大棚1号", "x": 550, "y": 260, "width": 80, "height": 50, "crop": "甜瓜", "growthStage": "seedling"},
+    {"id": "GH037", "name": "甜瓜大棚2号", "x": 650, "y": 260, "width": 80, "height": 50, "crop": "甜瓜", "growthStage": "vegetative"},
+    {"id": "GH038", "name": "甜瓜大棚3号", "x": 750, "y": 260, "width": 80, "height": 50, "crop": "甜瓜", "growthStage": "flowering"},
+    {"id": "GH039", "name": "甜瓜大棚4号", "x": 850, "y": 260, "width": 80, "height": 50, "crop": "甜瓜", "growthStage": "fruiting"},
+    {"id": "GH040", "name": "甜瓜大棚5号", "x": 950, "y": 260, "width": 80, "height": 50, "crop": "甜瓜", "growthStage": "maturity"},
+    {"id": "GH041", "name": "葡萄大棚1号", "x": 50, "y": 330, "width": 80, "height": 50, "crop": "葡萄", "growthStage": "vegetative"},
+    {"id": "GH042", "name": "葡萄大棚2号", "x": 150, "y": 330, "width": 80, "height": 50, "crop": "葡萄", "growthStage": "flowering"},
+    {"id": "GH043", "name": "葡萄大棚3号", "x": 250, "y": 330, "width": 80, "height": 50, "crop": "葡萄", "growthStage": "fruiting"},
+    {"id": "GH044", "name": "葡萄大棚4号", "x": 350, "y": 330, "width": 80, "height": 50, "crop": "葡萄", "growthStage": "maturity"},
+    {"id": "GH045", "name": "葡萄大棚5号", "x": 450, "y": 330, "width": 80, "height": 50, "crop": "葡萄", "growthStage": "vegetative"},
+    {"id": "GH046", "name": "猕猴桃大棚1号", "x": 550, "y": 330, "width": 80, "height": 50, "crop": "猕猴桃", "growthStage": "flowering"},
+    {"id": "GH047", "name": "猕猴桃大棚2号", "x": 650, "y": 330, "width": 80, "height": 50, "crop": "猕猴桃", "growthStage": "fruiting"},
+    {"id": "GH048", "name": "猕猴桃大棚3号", "x": 750, "y": 330, "width": 80, "height": 50, "crop": "猕猴桃", "growthStage": "maturity"},
+    {"id": "GH049", "name": "猕猴桃大棚4号", "x": 850, "y": 330, "width": 80, "height": 50, "crop": "猕猴桃", "growthStage": "vegetative"},
+    {"id": "GH050", "name": "猕猴桃大棚5号", "x": 950, "y": 330, "width": 80, "height": 50, "crop": "猕猴桃", "growthStage": "flowering"}
+  ],
+  "thresholds": {
+    "temperature": {"min": 18, "max": 30, "alarmMax": 35, "alarmDuration": 300},
+    "humidity": {"min": 50, "max": 80, "alarmMin": 30, "alarmDuration": 600},
+    "light": {"min": 5000, "max": 20000},
+    "co2": {"min": 400, "max": 1500, "alarmMax": 2000},
+    "soilMoisture": {"min": 40, "max": 70}
+  },
+  "weights": {
+    "temperature": 0.4,
+    "humidity": 0.35,
+    "light": 0.25
+  },
+  "growthStageWeights": {
+    "seedling": {
+      "name": "苗期",
+      "description": "温度权重较高，需要适宜温度促进幼苗生长",
+      "weights": {
+        "temperature": 0.45,
+        "humidity": 0.35,
+        "light": 0.20
+      }
+    },
+    "vegetative": {
+      "name": "营养生长期",
+      "description": "光照权重提高，促进光合作用和茎叶生长",
+      "weights": {
+        "temperature": 0.40,
+        "humidity": 0.30,
+        "light": 0.30
+      }
+    },
+    "flowering": {
+      "name": "开花期",
+      "description": "温湿度均衡，确保正常授粉",
+      "weights": {
+        "temperature": 0.35,
+        "humidity": 0.35,
+        "light": 0.30
+      }
+    },
+    "fruiting": {
+      "name": "结果期",
+      "description": "湿度权重较高，促进果实膨大",
+      "weights": {
+        "temperature": 0.35,
+        "humidity": 0.40,
+        "light": 0.25
+      }
+    },
+    "maturity": {
+      "name": "成熟期",
+      "description": "湿度权重最高，促进果实成熟和糖分积累",
+      "weights": {
+        "temperature": 0.30,
+        "humidity": 0.45,
+        "light": 0.25
+      }
+    }
+  },
+  "retryConfig": {
+    "maxRetryCount": 3,
+    "retryIntervalMs": 5000,
+    "offlineThresholdMs": 120000
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "smart-agriculture-system",
+  "version": "1.0.0",
+  "description": "智慧农业大棚环境调控系统",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js",
+    "simulator": "node server/simulator.js",
+    "init-db": "node server/init-db.js",
+    "docker:up": "docker-compose up -d",
+    "docker:down": "docker-compose down",
+    "docker:build": "docker-compose build",
+    "docker:logs": "docker-compose logs -f",
+    "docker:restart": "docker-compose restart"
+  },
+  "dependencies": {
+    "@influxdata/influxdb-client": "^1.33.0",
+    "@influxdata/influxdb-client-apis": "^1.33.0",
+    "express": "^4.18.2",
+    "mqtt": "^4.3.7",
+    "ws": "^8.13.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}

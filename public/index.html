@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>智慧农业大棚环境调控系统</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>🌱 智慧农业大棚环境调控系统</h1>
+            <div class="status-bar">
+                <span class="connection-status" id="connectionStatus">连接中...</span>
+                <span class="time-display" id="timeDisplay"></span>
+            </div>
+        </header>
+        
+        <div class="main-content">
+            <aside class="sidebar">
+                <div class="panel">
+                    <h3>📊 评分图例</h3>
+                    <div class="legend">
+                        <div class="legend-item">
+                            <div class="legend-color" style="background: #4CAF50;"></div>
+                            <span>优秀 (&gt;80分)</span>
+                        </div>
+                        <div class="legend-item">
+                            <div class="legend-color" style="background: #FFC107;"></div>
+                            <span>良好 (60-80分)</span>
+                        </div>
+                        <div class="legend-item">
+                            <div class="legend-color" style="background: #F44336;"></div>
+                            <span>警告 (&lt;60分)</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="panel">
+                    <h3>🔔 实时告警</h3>
+                    <div class="alarm-list" id="alarmList">
+                        <div class="no-alarm">暂无告警</div>
+                    </div>
+                </div>
+                
+                <div class="panel">
+                    <h3>📈 统计信息</h3>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <span class="stat-label">大棚总数</span>
+                            <span class="stat-value" id="totalGreenhouses">50</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">正常运行</span>
+                            <span class="stat-value" id="normalCount">0</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">告警数量</span>
+                            <span class="stat-value warning" id="alarmCount">0</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">设备运行</span>
+                            <span class="stat-value" id="deviceRunning">0</span>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+            
+            <main class="content">
+                <div class="canvas-container">
+                    <canvas id="greenhouseCanvas" width="1080" height="420"></canvas>
+                </div>
+                
+                <div class="toolbar">
+                    <button class="btn" id="compareBtn">📊 对比模式</button>
+                    <button class="btn" id="refreshBtn">🔄 刷新数据</button>
+                    <span class="hint">点击大棚查看详情</span>
+                </div>
+            </main>
+        </div>
+    </div>
+    
+    <div class="modal" id="detailModal">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h2 id="modalTitle">大棚详情</h2>
+            <button class="close-btn" id="closeModal">&times;</button>
+        </div>
+        <div class="modal-body">
+            <div class="detail-grid">
+                <div class="detail-card">
+                    <h3>实时数据</h3>
+                    <div class="sensor-data" id="sensorData">
+                    </div>
+                </div>
+                <div class="detail-card">
+                    <h3>设备状态</h3>
+                    <div class="device-status" id="deviceStatus">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="chart-container">
+                <h3>24小时趋势</h3>
+                <div class="chart-tabs">
+                    <button class="tab-btn active" data-type="temperature">温度</button>
+                    <button class="tab-btn" data-type="humidity">湿度</button>
+                    <button class="tab-btn" data-type="light">光照</button>
+                    <button class="tab-btn" data-type="co2">CO2</button>
+                    <button class="tab-btn" data-type="soilMoisture">土壤含水率</button>
+                </div>
+                <canvas id="trendChart" width="800" height="300"></canvas>
+            </div>
+            
+            <div class="control-panel">
+                <h3>手动控制</h3>
+                <div class="control-buttons" id="controlButtons">
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    
+    <div class="modal" id="compareModal">
+        <div class="modal-content large">
+            <div class="modal-header">
+            <h2>大棚数据对比</h2>
+            <button class="close-btn" id="closeCompareModal">&times;</button>
+        </div>
+        <div class="modal-body">
+            <div class="compare-selector">
+                <div class="select-group">
+                    <label>选择大棚1:</label>
+                    <select id="compareSelect1"></select>
+                </div>
+                <div class="select-group">
+                    <label>选择大棚2:</label>
+                    <select id="compareSelect2"></select>
+                </div>
+                <button class="btn" id="startCompare">开始对比</button>
+            </div>
+            <div class="compare-charts">
+                <div class="compare-chart">
+                    <h4>温度对比</h4>
+                    <canvas id="compareTempChart" width="380" height="250"></canvas>
+                </div>
+                <div class="compare-chart">
+                    <h4>湿度对比</h4>
+                    <canvas id="compareHumChart" width="380" height="250"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
